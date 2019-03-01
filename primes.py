@@ -21,9 +21,9 @@ while i < 1:
         i = int(input('Not a postive integer. Please enter a positive integer:' ))
 
 if i > 1:
-   # loop to check for factors. begin with 2 as a factor and stop at i 
+   # loop to check for factors. begin with 2 as a factor and then stop at i 
     for j in range(2, i):
-        check if 
+        # if i can be divided evenly by j then it is not a factor
         if (i % j) == 0:
             print(i,"is not a prime number")
             break
