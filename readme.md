@@ -13,9 +13,10 @@ This repository contains the solutions to Module 52445 Problem Set.
 
 ## File Contents
 
-1. Sumupto.py contains my solution to Question 1 
+1. sumupto.py contains my solution to Question 1 
 2. begins-with-t.py contains my solution to Question 2
-3. divisors.py contains my soluction to Question 3
-4. 
+3. divisors.py contains my solution to Question 3
+4. collatz.py contains my solution to Question 4
+5. primes.py contains my solution to Question 5
 
 ## References
