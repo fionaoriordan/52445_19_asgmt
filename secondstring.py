@@ -1,9 +1,6 @@
 # Fiona O'Riordan 2 March 2019
 # Write a program that takes a user input string and outputs every second word
 
-
-
-
 # the user is asked to input a sentence. The string entered is assigned to new value usersentence
 usersentence = input('Please enter a sentence:')
 
