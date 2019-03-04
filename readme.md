@@ -18,7 +18,9 @@ This repository contains the solutions to Module 52445 Problem Set 2019.
 3. divisors.py contains my solution to Question 3
 4. collatz.py contains my solution to Question 4
 5. primes.py contains my solution to Question 5
-6. secondstring.py contains my soluction to Question 6
+6. secondstring.py contains my solution to Question 6
+7. squareroot.py contains my solution to Question 7
+8. fionadatetime.py contains my solution to Question 8
 
 ## Executing the solutions
 
