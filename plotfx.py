@@ -9,7 +9,9 @@
 # To Do/try (time permitting):
 # https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html
 
+# import the numpy library and call it np so that the associated functions can be used later.
 import numpy as np
+# import the matplotlib.pyplot library and call it np so that the associated functions can be used later.
 import matplotlib.pyplot as plt
 
 # Create a function that reads the value of x and returns x squared
