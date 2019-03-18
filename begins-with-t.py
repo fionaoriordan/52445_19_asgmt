@@ -4,7 +4,7 @@
 # Adapted from Python Tutorial 10.8. Dates and Times 
 # (https://docs.python.org/3/tutorial/stdlib.html#dates-and-times)
 
-# import the date class from the datetime library date functions 
+# import the date class from the datetime library so that the date functions 
 # can be used below 
 from datetime import date
 # set my date equal to today
