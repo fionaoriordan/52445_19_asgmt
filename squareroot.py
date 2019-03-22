@@ -2,6 +2,7 @@
 # Module 52445 Problem Set, Solution to Question 7
 # Write a program that that takes a positive floating point number as input and outputs 
 # an approximation of its square root.
+# Adapted from https://tour.golang.org/flowcontrol/8. 
 
 # import the math library so that we can use the math function sqrt later to 
 # verify the below code.
@@ -18,7 +19,6 @@ else:
     estimate = num/2
     # keep looping around until the square of the estimate is within
     # 0.01 of num. This is Newton's estimate method to improve the estimate.
-    # Adapted from https://tour.golang.org/flowcontrol/8. 
     while abs((estimate * estimate) - num) > 0.01:
         estimate -=((estimate * estimate) - num) / (2 * estimate)
     print(f"The square root of {num} is {estimate} approximately.")
