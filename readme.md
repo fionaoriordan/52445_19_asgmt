@@ -4,19 +4,24 @@ This repository contains the solutions to Module 52445 Problem Set 2019.
 ## Prerequisites to running the solutions
 
 ### 1. Launch your Command Line Interface
-1. For Mac users this is Terminal.  Click on the 'LaunchPad' icon in Dock. Click on the folder 'Other'. Click on 'Terminal' icon. Terminal interface is launched.
-1.  For Windows the default command line interface is Command Prompt. 
+    1. For Mac users this is Terminal.  Click on the 'LaunchPad' icon in Dock. Click on the folder 'Other'. Click on 'Terminal' icon. Terminal interface is launched.
+    1.  For Windows the default command line interface is Command Prompt. 
 However, CMDER is strongly recommended here.  To install and launch go to: https://cmder.net
-1. For Linux users invoke Linux.  For more information please see:https://www.forbes.com/sites/jasonevangelho/2018/11/19/beginners-guide-how-to-install-ubuntu-linux-18-10/#73ebe78e787d
+    1. For Linux users invoke Linux.  For more information please see:https://www.forbes.com/sites/jasonevangelho/2018/11/19/beginners-guide-how-to-install-ubuntu-linux-18-10/#73ebe78e787d
 
-#### 2 Install Python  
+#### 2. Install Python  
 1. Go to :https://www.anaconda.com/distribution/#download-section 
 1. Click on Python 3.7 version 'Download' (using 64 bit option is preferable)
-1. Once the download has completed, click on the the Anaconda exe file in Downloads folder. In the installer click next and then accept all defaults except do check 'Add Anaconda to my PATH environment variables. Click install.  Launch your command line interface as per above. At the prompt type 'Python --version' to verify the installation is complete and the version installed e.g. Python 3.7.2
+1. Once the download has completed, click on the the Anaconda exe file in Downloads folder. 
+1. In the installer window click next and then accept all defaults except do check 'Add Anaconda to my PATH environment variables. Click install.  
+1. Launch your command line interface as per above. 
+1. At the prompt type 'Python --version' to verify the installation is complete and the version installed e.g. Python 3.7.2
 
 ### 3. Install GIT
 1. Go to https://git-scm.com/downloads
-1. The platform you are using should be detected and the appropriate download link for  MAC OS X, Windows, Linux/Unix should be available to click on. e.g. 'Download 3.20.1 for Windows' button is displayed. Once the download is complete. Click on the Git exe file in the Downloads folder. Click on next right the way through accepting the defaults presented and finally install.  In your command line interface type 'GIT --version' to verify the install is complete and the version installed e.g. Fionas-Air:52445_19_asgmt fionaoriordan$ git --version
+1. The platform you are using should be detected and the appropriate download link for  MAC OS X, Windows, Linux/Unix should be available to click on. e.g. 'Download 3.20.1 for Windows' button is displayed. 
+1. Once the download is complete. Click on the Git exe file in the Downloads folder. Click on next right the way through accepting the defaults presented and finally install.  
+1. In your command line interface type 'GIT --version' to verify the install is complete and the version installed e.g. Fionas-Air:52445_19_asgmt fionaoriordan$ git --version
 git version 2.20.1
 
 
