@@ -6,8 +6,6 @@
 # https://matplotlib.org/users/pyplot_tutorial.html
 # https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.arange.html
 # https://stackoverflow.com/questions/44041021/how-to-plot-y-1-x-as-a-single-graph
-# To Do/try (time permitting):
-# https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html
 
 # import the numpy library and call it np so that the associated functions can be used later.
 import numpy as np
