@@ -20,7 +20,6 @@ However, CMDER is strongly recommended here.  To install and launch go to: https
 git version 2.20.1
 
 
-
 ## Repository Contents
 
 1. sumupto.py contains my solution to Question 1 
@@ -39,7 +38,7 @@ git version 2.20.1
 
 ## Open Issues:
 1. Question 9:
-Mac txt files do not wrap and there appears to be no endline character.  For example when I copy and paste the moby dick text into a txt file on a mac.  The  file recognises the Chapter1 heading  'Loomings' and breaks appropriately but the rest of the text is one endless string. 
+Mac txt files do not wrap and there appears to be no endline character.  For example when I copy and paste the moby dick text into a txt file on a mac.  The  file recognises the Chapter1 heading and 'Loomings' subheadings and breaks appropriately but the rest of the text is one endless string. 
 
 I tried the following in terminal: file myfile.txt
 and the result was myfile.txt: UTF-8 Unicode text, with very long lines
@@ -48,8 +47,7 @@ I tried the following in terminal (based on advise in https://confluence.qps.nl/
 
 sed -e '1,$s/\r$/\r\n/' < myfile.txt > myfilefixed.txt
 
-Then I ran the following script in terminal ( I was trying all variations of endline that I could find):
-( I was trying all variations of endline that I could find):
+Then I ran the following script in terminal ( I was trying all variations of endline that I could find)::
 
 
 with 
@@ -64,6 +62,32 @@ print(readfile.split('\r\n'))
 
 print(readfile.split('\r'))
 
-But output is still not split. 
+But in the output the paragraphy of text is still not split. I have finished the script assuming that the endline character '\n' exists within the text.
 
 ## References
+1. Python Documentation Tutorial 10.8. Dates and Times 
+ (https://docs.python.org/3/tutorial/stdlib.html#dates-and-times)
+2. Python Documentation Tutorial 10.8. Dates and Times  
+https://docs.python.org/3.7/tutorial/controlflow.html#if-statements
+3. https://docs.python.org/3.7/tutorial/introduction.html#first-steps-towards-programming
+4. https://stackoverflow.com/questions/46504954/converting-time-to-am-pm-using-python
+https://docs.python.org/3.7/tutorial/controlflow.html#for-statements
+5.
+5. https://docs.python.org/3.7/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+6. https://stackoverflow.com/a/37890826
+7. https://stackoverflow.com/questions/1403674/pythonic-way-to-return-list-of-every-nth-item-in-a-larger-list
+8. https://docs.python.org/2/library/sys.html#sys.argv
+9. https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+10. https://docs.python.org/3/library/stdtypes.html
+11. https://tour.golang.org/flowcontrol/8
+12. https://docs.python.org/3.7/tutorial/controlflow.html#if-statements
+13. 2.4.3. Formatted string literals in https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals
+14. http://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+15. https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U17_L2_T2_text_final.html
+16. https://matplotlib.org/users/pyplot_tutorial.html
+17. https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.arange.html
+18. https://stackoverflow.com/questions/44041021/how-to-plot-y-1-x-as-a-single-graph
+
+
+
+
