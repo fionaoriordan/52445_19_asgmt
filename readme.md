@@ -6,7 +6,7 @@ This repository contains the solutions to Module 52445 Problem Set 2019.
 ### 1. Launch your Command Line Interface
 1. For Mac users this is Terminal.  Click on the 'LaunchPad' icon in Dock. Click on the folder 'Other'. Click on 'Terminal' icon. Terminal interface is launched.
 1.  For Windows the default command line interface is Command Prompt. 
-However, CMDER is strongly recommended here.  To install and launch go to: https://cmder.net
+However, CMDER is strongly recommended here.  To install go to: https://cmder.net
 1. For Linux users invoke Linux.  For more information please see:https://www.forbes.com/sites/jasonevangelho/2018/11/19/beginners-guide-how-to-install-ubuntu-linux-18-10/#73ebe78e787d
 
 ### 2. Install Python  
@@ -27,7 +27,7 @@ git version 2.20.1
 
 ## Repository Contents
 
-1. sumupto.py contains my solution to Question 1 
+1. sumupto.py [sumupto.py](52445_19_asgmt/begins-with-t.py)contains my solution to Question 1 
 2. begins-with-t.py contains my solution to Question 2
 3. divisors.py contains my solution to Question 3
 4. collatz.py contains my solution to Question 4
@@ -40,6 +40,7 @@ git version 2.20.1
 
 
 ## Executing the solutions
+1. 
 
 ## Open Issues:
 1. Question 9:
