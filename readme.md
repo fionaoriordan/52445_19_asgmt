@@ -40,7 +40,7 @@ git version 2.20.1
 
 
 ## Executing the solutions
-1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/downloadgitzip.png).
+1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip](hhttps://github.com/fionaoriordan/52445_19_asgmt/blob/master/image_downloadzip.png).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
 1. Launch your Command Line Interface (see above).
 1. Open the Desktop directory with command: cd Desktop
