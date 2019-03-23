@@ -35,29 +35,36 @@ git version 2.20.1
 6. [secondstring.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/secondstring.py) contains my solution to Question 6
 7. [squareroot.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/squareroot.py) contains my solution to Question 7
 8. [fionadatetime.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/fionadatetime.py) contains my solution to Question 8. 
-9. [second.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/second.py) contains my solution to Question 9. myfile.txt contains Chapter1 of mobydick for Question but has no endline character in a mac. myfilefixed.txt is myfilefixed.txt is an attempt to fix myfile.txt that did not work.  See open issues.
+9. [second.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/second.py) contains my solution to Question 9. moby-dick.txt contains Chapter1 of mobydick main body of text/paragraphy does not have an endline character in a mac. The file moby-dickfixed.txt  is an attempt to fix moby-dick.txt that did not work.  See open issues below.
 10. [plotfx.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/plotfx.py) contains my solution to Question 10
 
 
 ## Executing the solutions
-1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip]()
+1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/downloadgitzip.png).
+1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
+1. Launch your Command Line Interface (see above).
+1. Open the Desktop directory with command: cd Desktop
+1. Open the folder 52445_19_asgmt with command: cd 52445_19_asgmt
+1. To run a script type python followed by the script name at the command line prompt e.g. python sumupto.py
+1. In the case of Question second.py, at the command line prompt, the programme expects a text file name also to be entered. i.e. python second.py moby-dickfixed.txt
+
 
 ## Open Issues:
 1. Question 9:
 Mac txt files do not wrap and there appears to be no endline character.  For example when I copy and paste the moby dick text into a txt file on a mac.  The  file recognises the Chapter1 heading and 'Loomings' subheadings and breaks appropriately but the rest of the text is one endless string. 
 
-I tried the following in terminal: file myfile.txt
-and the result was myfile.txt: UTF-8 Unicode text, with very long lines
+I tried the following in terminal: file moby-dick.txt
+and the result was moby-dick.txt: UTF-8 Unicode text, with very long lines
 
 I tried the following in terminal (based on advise in https://confluence.qps.nl/fledermaus/questions-answers/other/differences-in-end-of-line-characters-mac-windows-and-linux)
 
-sed -e '1,$s/\r$/\r\n/' < myfile.txt > myfilefixed.txt
+sed -e '1,$s/\r$/\r\n/' < moby-dick.txt > moby-dickfixed.txt
 
 Then I ran the following script in terminal ( I was trying all variations of endline that I could find)::
 
 
 with 
-open('myfilefixed.txt','r+')
+open('moby-dickfixed.txt','r+')
 as f:
 
 readfile = f.read()
@@ -68,7 +75,7 @@ print(readfile.split('\r\n'))
 
 print(readfile.split('\r'))
 
-But in the output the paragraphy of text is still not split. I have finished the script assuming that the endline character '\n' exists within the text.
+But in the output the paragraph of text is still not split. I have finished the script assuming that the endline character '\n' exists within the text and have modified the text files to include sentences I have manually keyed and manually a return carriage to generate some endline characters '\n'. in order to test the script works when '\n' endline characters exist.
 
 ## References
 1. Python Documentation 3.7.3rc1 Tutorial 10.8. Dates and Times 
