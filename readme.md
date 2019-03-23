@@ -9,7 +9,7 @@ This repository contains the solutions to Module 52445 Problem Set 2019.
 However, CMDER is strongly recommended here.  To install and launch go to: https://cmder.net
 1. For Linux users invoke Linux.  For more information please see:https://www.forbes.com/sites/jasonevangelho/2018/11/19/beginners-guide-how-to-install-ubuntu-linux-18-10/#73ebe78e787d
 
-#### 2. Install Python  
+### 2. Install Python  
 1. Go to :https://www.anaconda.com/distribution/#download-section 
 1. Click on Python 3.7 version 'Download' (using 64 bit option is preferable)
 1. Once the download has completed, click on the the Anaconda exe file in Downloads folder. 
@@ -70,33 +70,42 @@ print(readfile.split('\r'))
 But in the output the paragraphy of text is still not split. I have finished the script assuming that the endline character '\n' exists within the text.
 
 ## References
-1. Python Documentation Tutorial 10.8. Dates and Times 
- (https://docs.python.org/3/tutorial/stdlib.html#dates-and-times)
-2. Python Documentation Tutorial 4.1. if Statement  
+1. Python Documentation 3.7.3rc1 Tutorial 10.8. Dates and Times 
+https://docs.python.org/3/tutorial/stdlib.html#dates-and-times
+2. Python Documentation 3.7.3rc1 Tutorial 4.1. if Statement  
 https://docs.python.org/3.7/tutorial/controlflow.html#if-statements
-3. Python Documentation Tutorial 3.2. First Steps Towards Programming
+3. Python Documentation 3.7.3rc1 Tutorial 3.2. First Steps Towards Programming
 https://docs.python.org/3.7/tutorial/introduction.html#first-steps-towards-programming
 4. Stackoverflow.com Converting time to am/pm using python
 https://stackoverflow.com/questions/46504954/converting-time-to-am-pm-using-python
-5. Python Documentation Tutorial 4.2. for Statements
+5. Python Documentation 3.7.3rc1 Tutorial 4.2. for Statements
 https://docs.python.org/3.7/tutorial/controlflow.html#for-statements
-6. Python Documentation Tutorial 4.4. break and continue Statements, and else Clauses on Loops¶
- https://docs.python.org/3.7/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+6. Python Documentation 3.7.3rc1 Tutorial 4.4. break and continue Statements, and else Clauses on Loops¶
+https://docs.python.org/3.7/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 7. Stackoverflow.com Python - failing to read correctly the first line of a text file to a list
- https://stackoverflow.com/a/37890826
-8. Pythonic way to return list of every nth item in a larger list, Stackoverflow.com
+https://stackoverflow.com/a/37890826
+8. Stackoverflow.com Pythonic way to return list of every nth item in a larger list, 
  https://stackoverflow.com/questions/1403674/pythonic-way-to-return-list-of-every-nth-item-in-a-larger-list
-9. https://docs.python.org/2/library/sys.html#sys.argv
-10. https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
-12. https://docs.python.org/3/library/stdtypes.html
-12. https://tour.golang.org/flowcontrol/8
-13. https://docs.python.org/3.7/tutorial/controlflow.html#if-statements
-14. 2.4.3. Formatted string literals in https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals
-15. http://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
-16. https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U17_L2_T2_text_final.html
-17. https://matplotlib.org/users/pyplot_tutorial.html
-18. https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.arange.html
-19. https://stackoverflow.com/questions/44041021/how-to-plot-y-1-x-as-a-single-graph
+9. Python Documentation, The Python Standard Library, Python Runtime Services, sys — System-specific parameters and functions,sys.argv
+https://docs.python.org/3.7/library/sys.html#sys.argv
+10. Python Documentation 3.7.3rc1, Python Tutorials, 7.2. Reading and Writing Files https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+11. Python Documentation 3.7.3rc1, Python Tutorials, 7.2. Built-in Types
+https://docs.python.org/3/library/stdtypes.html
+12. A Tour of go, Exercise: Loops and Functions
+https://tour.golang.org/flowcontrol/8
+13. Python Documentation 3.7.3rc1, Python Tutorials 4.1. if Statements
+https://docs.python.org/3.7/tutorial/controlflow.html#if-statements
+14. Python Documentation 3.7.3rc1, The Language Reference, 2.4.3. Formatted string literals in https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals
+15. Pandas 0.24.2 Documentation, Getting started, 10 Minutes to Pandas
+http://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+16. Monterey Institute, Courses, Developtmental Maths, Graphing Types of Functions
+https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U17_L2_T2_text_final.html
+17. Matplotlib Version 3.03 ,Docs, User's Guide, Tutorials, Pyplot tutorial
+https://matplotlib.org/users/pyplot_tutorial.html
+18. Scipy.org, Documentation, numby.Arange
+https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.arange.html
+19. Stackoverflow.com, 'How to plot y=1/x as a single graph "duplicate"'
+https://stackoverflow.com/questions/44041021/how-to-plot-y-1-x-as-a-single-graph
 
 
 
