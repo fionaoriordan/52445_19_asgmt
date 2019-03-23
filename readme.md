@@ -27,20 +27,20 @@ git version 2.20.1
 
 ## Repository Contents
 
-1. sumupto.py [sumupto.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/sumupto.py) contains my solution to Question 1 
-2. begins-with-t.py contains my solution to Question 2
-3. divisors.py contains my solution to Question 3
-4. collatz.py contains my solution to Question 4
-5. primes.py contains my solution to Question 5
-6. secondstring.py contains my solution to Question 6
-7. squareroot.py contains my solution to Question 7
-8. fionadatetime.py contains my solution to Question 8. myfile.txt contains Chapter1 of mobydick for Question but has no endline character in a mac. myfilefixed.txt is myfilefixed.txt is an attempt to fix myfile.txt that did not work.  See open issues.
-9. second.py contains my solution to Question 9
-10. plotfx.py contains my solution to Question 10
+1. [sumupto.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/sumupto.py) contains my solution to Question 1 
+2. [begins-with-t.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/begins-with-t.py) contains my solution to Question 2
+3. [divisors.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/divisors.py) contains my solution to Question 3
+4. [collatz.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/collatz.py) contains my solution to Question 4
+5. [primes.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/primes.py) contains my solution to Question 5
+6. [secondstring.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/secondstring.py) contains my solution to Question 6
+7. [squareroot.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/squareroot.py) contains my solution to Question 7
+8. [fionadatetime.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/fionadatetime.py) contains my solution to Question 8. 
+9. [second.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/second.py) contains my solution to Question 9. myfile.txt contains Chapter1 of mobydick for Question but has no endline character in a mac. myfilefixed.txt is myfilefixed.txt is an attempt to fix myfile.txt that did not work.  See open issues.
+10. [plotfx.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/plotfx.py) contains my solution to Question 10
 
 
 ## Executing the solutions
-1. 
+1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip]()
 
 ## Open Issues:
 1. Question 9:
