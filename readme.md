@@ -37,7 +37,7 @@ git version 2.20.1
 1. [plotfx.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/plotfx.py) contains my solution to Question 10. The program displays a plot of the functions x, x2 and 2x in the range [0, 4].
 
 ## Executing the solutions
-1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/image_downloadzip.png).
+1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on Download Zip ![download Zip](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/image_downloadzip.png).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
 1. Launch your Command Line Interface (see above).
 1. Open the Desktop directory with command: cd Desktop
