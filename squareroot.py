@@ -1,6 +1,6 @@
 # # Fiona O'Riordan, 03 Mar 2019
 # Module 52445 Problem Set, Solution to Question 7
-# Write a program that that takes a positive floating point number as input and outputs 
+# Write a program that takes a positive floating point number as input and outputs 
 # an approximation of its square root.
 # Adapted from https://tour.golang.org/flowcontrol/8. 
 
