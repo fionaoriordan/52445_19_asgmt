@@ -24,20 +24,17 @@ However, CMDER is strongly recommended here.  To install go to: https://cmder.ne
 1. In your command line interface type 'GIT --version' to verify the install is complete and the version installed e.g. Fionas-Air:52445_19_asgmt fionaoriordan$ git --version
 git version 2.20.1
 
-
-## Repository Contents
-
-1. [sumupto.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/sumupto.py) contains my solution to Question 1 
-2. [begins-with-t.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/begins-with-t.py) contains my solution to Question 2
-3. [divisors.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/divisors.py) contains my solution to Question 3
-4. [collatz.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/collatz.py) contains my solution to Question 4
-5. [primes.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/primes.py) contains my solution to Question 5
-6. [secondstring.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/secondstring.py) contains my solution to Question 6
-7. [squareroot.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/squareroot.py) contains my solution to Question 7
-8. [fionadatetime.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/fionadatetime.py) contains my solution to Question 8. 
-9. [second.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/second.py) contains my solution to Question 9. moby-dick.txt contains Chapter1 of mobydick main body of text/paragraphy does not have an endline character in a mac. The file moby-dickfixed.txt  is an attempt to fix moby-dick.txt that did not work.  See open issues below.
-10. [plotfx.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/plotfx.py) contains my solution to Question 10
-
+## Repository Contents and Overview of each Solution
+1. [sumupto.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/sumupto.py) contains my solution to Question 1. The program asks the user to input any positive integer and outputs the sum of all numbers between one and that number. 
+1. [begins-with-t.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/begins-with-t.py) contains my solution to Question 2. The program outputs whether or not today is a day that begins with the letter T.
+1. [divisors.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/divisors.py) contains my solution to Question 3. The program prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.
+1. [collatz.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/collatz.py) contains my solution to Question 4. The programme asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. The program ends if the current value is one.
+1. [primes.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/primes.py) contains my solution to Question 5. This program asks the user to input a positive integer and tells the userwhether or not the number is a prime.
+1. [secondstring.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/secondstring.py) contains my solution to Question 6. This program takes a user input string and outputs every second word.
+1. [squareroot.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/squareroot.py) contains my solution to Question 7. This program takes a positive floating point number as input and outputs an approximation of its square root.
+1. [fionadatetime.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/fionadatetime.py) contains my solution to Question 8. This program outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.
+1. [second.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/second.py) contains my solution to Question 9. This program reads in a text file and outputs every second line. The program takes the filename from an argument on the command line. The file moby-dick.txt contains Chapter1 of mobydick main but body of text/paragraph does not have an endline character in a Mac. The file moby-dickfixed.txt  is an attempt to fix moby-dick.txt that did not work.  See open issues below.
+1. [plotfx.py](https://github.com/fionaoriordan/52445_19_asgmt/blob/master/plotfx.py) contains my solution to Question 10. The program displays a plot of the functions x, x2 and 2x in the range [0, 4].
 
 ## Executing the solutions
 1. In the [repository page 52445_19_asgmt](https://github.com/fionaoriordan/52445_19_asgmt) click on ![download Zip](hhttps://github.com/fionaoriordan/52445_19_asgmt/blob/master/image_downloadzip.png).
